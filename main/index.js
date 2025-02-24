@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", () => {
         card.classList.add("card");
 
         // Set background dynamically
-        card.style.backgroundImage = `url('../Projects/${project.folder}/output.png')`;
+        card.style.backgroundImage = `url('./Projects/${project.folder}/output.png')`;
         card.style.backgroundSize = "cover";
         card.style.backgroundPosition = "center";
         card.style.backgroundRepeat = "no-repeat";
