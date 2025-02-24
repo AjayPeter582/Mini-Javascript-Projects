@@ -1,0 +1,75 @@
+body{
+    margin:0;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h1{
+    font-size: 100px;
+    color:aliceblue;
+    backdrop-filter: brightness(0.5);
+    letter-spacing: 4px;
+}
+
+.butt{
+    background-color: black;
+    color: white;
+    padding: 20px 40px;
+    font-size: 25px;
+    border:4px solid;
+    cursor: pointer;
+    transition: 1s background-color;
+    white-space: nowrap;
+}
+
+.butt:hover{
+    background-color: white;
+    color: black;
+}
+
+.split{
+    width:50%;
+    height:100%;
+    top:0;
+    overflow: hidden;
+}
+
+.split.left{
+    position: absolute;
+    left:0;
+    background-color: pink;
+    background-image: url("https://www.apple.com/newsroom/images/2024/09/apple-debuts-iphone-16-pro-and-iphone-16-pro-max/tile/Apple-iPhone-16-Pro-hero-240909-lp.jpg.news_app_ed.jpg");
+    background-size: cover;
+}
+
+.split.right{
+    position: absolute;
+    right:0;
+    background-color: lightblue;
+    background-image: url("https://m.media-amazon.com/images/I/81vxWpPpgNL.jpg");
+    background-size: cover;
+}
+
+.active-left .left{
+    width:75%;
+}
+
+.active-left .right{
+    width:25%;
+}
+
+.active-right .right{
+    width:75%;
+}
+
+.active-right .left{
+    width:25%;
+}
+
+.left, .right{
+    transition: width 2s ease-in-out;
+}

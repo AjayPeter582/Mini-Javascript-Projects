@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Matemasie&display=swap');
+
+body{
+    margin:0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    background-color: blueviolet;
+    font-family: "Matemasie", sans-serif;
+
+}

@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #1e1e1e;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 100%;
+            margin: auto;
+            background: #2a2d37;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+            position: relative;
+        }
+
+        h1 {
+            margin-bottom: 15px;
+            font-size: 24px;
+        }
+
+        .back-btn {
+            position: absolute;
+            background-color: transparent;
+            top: 32px;
+            right: 28px;
+            border: none;
+            padding: 10px 15px;
+            font-size: 14px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 0.3s;
+            z-index: 1000;
+            border-radius: 10em;
+        }
+        
+        .back-btn img{
+            width:40px;
+            height:40px;
+            border-radius: 10em;
+        }
+
+        .back-btn img:hover{
+            box-shadow: rgb(255, 255, 255,0.7) 0px 5px 15px;
+        }
+
+        .tabs {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+
+        .tab {
+            padding: 10px 20px;
+            margin: 5px;
+            border: none;
+            cursor: pointer;
+            background-color: #3b3f4a;
+            color: white;
+            border-radius: 5px;
+            transition: 0.3s;
+        }
+
+        .tab.active {
+            background-color: #0078d7;
+        }
+
+        .tab:hover {
+            background-color: #555;
+        }
+
+        .code-container {
+            text-align: left;
+            background: #282c34;
+            padding: 15px;
+            border-radius: 5px;
+            overflow: auto;
+            max-height: 75vh;
+            position: relative;
+        }
+
+        .copy-btn {
+            position: absolute;
+            background-color: rgb(46, 35, 35);
+            top: 10px;
+            right: 10px;
+            border: none;
+            padding: 5px 10px;
+            font-size: 14px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+        .copy-btn img{
+            width:20px;
+        }
+
+        .copy-btn:hover {
+            background: #005ea6;
+        }
+
+        .copy-btn:active {
+            background: #003d73;
+        }
+
+        .copied-message {
+            position: absolute;
+            top: 12px;
+            right: 55px;
+            background: #0db9d7;
+            color: black;
+            padding: 5px 8px;
+            border-radius: 4px;
+            font-size: 12px;
+            display: none;
+        }
+
+        .name {
+            text-decoration: none;
+            color: #0db9d7;
+            font-size:1.2em;
+        }
+
+        footer {
+            margin-bottom:40px;
+        }
+
+        footer img {
+            width:25px;
+        }
+
+        #live-demo, #source-code {
+            font-family: "Open Sans", sans-serif;
+            margin:10px;
+            background-color: #D0342C;
+            font-size: 16px;
+            letter-spacing: 2px;
+            text-decoration: none;
+            text-transform: uppercase;
+            color: #000;
+            cursor: pointer;
+            border: 3px solid;
+            padding: 0.25em 0.5em;
+            box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+            position: relative;
+            user-select: none;
+            -webkit-user-select: none;
+            touch-action: manipulation;
+            height:2em;
+        }
+
+        #live-demo:active, #source-code:active {
+            box-shadow: 0px 0px 0px 0px;
+            top: 5px;
+            left: 5px;
+        }
+
+        @media (min-width: 768px) {
+            #live-demo, #source-code {
+                padding: 0.25em 0.75em;
+            }
+        }
+
+    </style>
+</head>
+<body>
+
+    <button class="back-btn" onclick="goBack()"><img src="Images/delete.png" alt=""></button>
+
+    <div class="container">
+        <h1 id="projectTitle">Code Viewer</h1>
+        <button id="live-demo">Live demo</button>
+        <button id="source-code">Source code</button>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, illum maxime.</p>
+
+        <div class="tabs">
+            <button class="tab active" id="htmlBtn">index.html</button>
+            <button class="tab active" id="cssBtn">style.css</button>
+            <button class="tab active" id="jsBtn">index.js</button>
+        </div>
+
+        <div class="code-container">
+            <pre><code id="code-display" class="language-html"></code></pre>
+            <button class="copy-btn" id="copyButton"><img src="Images/copy.png" alt=""></button>
+            <span class="copied-message" id="copiedMessage">Copied!</span>
+        </div>
+    </div>
+
+    <footer>
+        <p>Developed by <a class="name" href="https://github.com/AjayPeter582" target="_blank"><strong>Ajay Peter</strong></a></p>
+        <div class="btn-container">
+            <a href="https://www.linkedin.com/in/ajay-peter-r/" target="_blank"><img src="Images/linkedin.png" alt="LinkedIn"></a>
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ajaypeter2005@gmail.com" target="_blank"><img src="Images/gmail.png" alt="Gmail"></a>
+            <a href="https://www.instagram.com/_ajay_peter_005/" target="_blank"><img src="Images/instagram.png" alt="Instagram"></a>
+        </div>
+    </footer>
+
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script type="module" src="codeView.js"></script>
+
+</body>
+</html>
