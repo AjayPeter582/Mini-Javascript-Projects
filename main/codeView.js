@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", () => {
 if (sourceBtnEl) {
     sourceBtnEl.onclick = () => {
         let encodedFolder = encodeURIComponent(folder); // Encode spaces properly
-        window.location.href = `https://github.com/AjayPeter582/Mini-Javascript-Projects/tree/main/${encodedFolder}`;
+        window.location.href = `https://github.com/AjayPeter582/Mini-Javascript-Projects/tree/Projects/${encodedFolder}`;
     };
 }
 
