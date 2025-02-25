@@ -12,9 +12,9 @@ document.addEventListener("DOMContentLoaded", () => {
         const card = document.createElement("div");
         card.classList.add("card");
 
-        // Construct the correct GitHub Pages URL
-        const imageUrl = `https://AjayPeter582.github.io/Mini-Javascript-Projects/Projects/${encodeURIComponent(project.folder)}/output.png`;
-        
+        // Construct the correct local server URL
+        const imageUrl = `../Projects/${encodeURIComponent(project.folder)}/output.png`;
+
         // Set background dynamically
         card.style.backgroundImage = `url('${imageUrl}')`;
         card.style.backgroundSize = "cover";
