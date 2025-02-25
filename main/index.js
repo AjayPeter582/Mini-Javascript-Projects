@@ -12,8 +12,11 @@ document.addEventListener("DOMContentLoaded", () => {
         const card = document.createElement("div");
         card.classList.add("card");
 
+        // Construct the correct GitHub Pages URL
+        const imageUrl = `https://AjayPeter582.github.io/Mini-Javascript-Projects/Projects/${encodeURIComponent(project.folder)}/output.png`;
+        
         // Set background dynamically
-       card.style.backgroundImage = `url('https://AjayPeter582.github.io/Mini-Javascript-Projects/Projects/${project.folder}/output.png')`;
+        card.style.backgroundImage = `url('${imageUrl}')`;
         card.style.backgroundSize = "cover";
         card.style.backgroundPosition = "center";
         card.style.backgroundRepeat = "no-repeat";
