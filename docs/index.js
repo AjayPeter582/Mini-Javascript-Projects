@@ -3,6 +3,9 @@ import projects from "./projects.js";
 document.addEventListener("DOMContentLoaded", () => {
     const container = document.getElementById("projectsContainer");
 
+    // Detect if running on GitHub Pages
+    const isGitHubPages = window.location.hostname.includes("github.io");
+
     projects.forEach(project => {
         // Create a wrapper for each card
         const wrapper = document.createElement("div");
@@ -12,8 +15,12 @@ document.addEventListener("DOMContentLoaded", () => {
         const card = document.createElement("div");
         card.classList.add("card");
 
-        // Construct the correct local server URL
-        const imageUrl = `../Projects/${encodeURIComponent(project.folder)}/output.png`;
+        // Construct the correct image URL based on the environment
+        const basePath = isGitHubPages 
+            ? `https://AjayPeter582.github.io/Mini-Javascript-Projects/Projects`
+            : `../Projects`;
+
+        const imageUrl = `${basePath}/${encodeURIComponent(project.folder)}/output.png`;
 
         // Set background dynamically
         card.style.backgroundImage = `url('${imageUrl}')`;
