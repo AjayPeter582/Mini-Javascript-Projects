@@ -49,7 +49,7 @@ if (btnEl) {
     document.querySelector("p").textContent = project.description || "No description available.";
 
     function loadCode(fileName, lang) {
-        const filePath = `../Projects/${folder}/${fileName}`;
+        const filePath = `https://raw.githubusercontent.com/AjayPeter582/Mini-Javascript-Projects/main/Projects/${folder}/${fileName}`;
 
         fetch(filePath)
             .then((response) => {
