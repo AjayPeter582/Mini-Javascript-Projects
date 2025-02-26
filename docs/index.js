@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", () => {
         // Click event to store folder name and navigate
         card.onclick = () => {
             localStorage.setItem("selectedProjectFolder", project.folder);
-            window.location.href = "codeView.html";
+            window.location.assign("codeView.html");
         };
 
         wrapper.appendChild(card);
