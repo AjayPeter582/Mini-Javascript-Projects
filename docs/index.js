@@ -13,6 +13,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const card = document.createElement("div");
         card.classList.add("card");
 
+
         const imageUrl = `../Projects/${project.folder}/output.png`;
         console.log(imageUrl);
 
