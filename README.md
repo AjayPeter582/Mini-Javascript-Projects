@@ -67,7 +67,7 @@ Each project folder contains:
 - `index.html` – Project's main HTML file
 - `index.js` – JavaScript logic
 - `style.css` – Styling file
-- `output.png` – Thumbnail image (optional)
+- `output.png` – output image used for card thumbmail
 
 ## 📜 How to Use
 
@@ -99,6 +99,6 @@ Fork the repo, create a branch, and submit a pull request! 🚀
 For questions or suggestions, reach out via:
 
 - **GitHub**: [@AjayPeter582](https://github.com/AjayPeter582)
-- **Email**: ajaypeter582@example.com
+- **Email**: ajaypeter2005@gmail.com
 
 💡 **Happy Coding!** 🚀
