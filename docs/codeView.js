@@ -20,7 +20,8 @@ document.addEventListener("DOMContentLoaded", () => {
     const sourceBtnEl = document.getElementById("source-code");
     if (sourceBtnEl) {
         sourceBtnEl.onclick = () => {
-            window.location.href = `https://github.com/AjayPeter582/Mini-Javascript-Projects/tree/Projects/${folder}`;
+            window.location.href = `https://github.com/AjayPeter582/Mini-Javascript-Projects/tree/main/Projects/${folder}
+`;
         };
     }
 
