@@ -72,49 +72,49 @@ Each project folder contains:
 ## 📌 Projects List
 Each project name below links to its respective folder in the GitHub repository.
 
-| #  | Project Name | Link |
-|----|-------------|------|
-| 1  | Heart Animation | [View Project](Projects/Project-1-heart-animation/) |
-| 2  | Auto Text | [View Project](Projects/Project-2-auto-text/) |
-| 3  | Mini Calendar | [View Project](Projects/Project-3-mini-calender/) |
-| 4  | Button Ripple | [View Project](Projects/Project-4-button-ripple/) |
-| 5  | Random Image | [View Project](Projects/Project-5-random-image/) |
-| 6  | Dark Mode | [View Project](Projects/Project-6-dark-mode/) |
-| 7  | Testimonial Slider | [View Project](Projects/Project-7-Testimonial-slider/) |
-| 8  | Real-time Character Counter | [View Project](Projects/Project-8-Real-time-character-counter/) |
-| 9  | Digital Clock | [View Project](Projects/Project-9-digital-clock/) |
-| 10 | Double Landing Page | [View Project](Projects/Project-10-double-landing-page/) |
-| 11 | Random Color Generator | [View Project](Projects/Project-11-random-color-generator/) |
-| 12 | Rotating Image Gallery | [View Project](Projects/Project-12-Rotating-Image-Gallery/) |
-| 13 | Animated Search Bar | [View Project](Projects/Project-13-animated-search-bar/) |
-| 14 | Loan Calculator | [View Project](Projects/Project-14-loan-calculator/) |
-| 15 | New Year Countdown | [View Project](Projects/Project-15-new-year-countdown/) |
-| 16 | Pomodoro Timer | [View Project](Projects/Project-16-pomodoro-timer/) |
-| 17 | Age Calculator | [View Project](Projects/Project-17-age-calculator/) |
-| 18 | Project Statistics | [View Project](Projects/Project-18-project-statistics/) |
-| 19 | Video Trailer Popup | [View Project](Projects/Project-19-video-trailer-popup/) |
-| 20 | Drum Kits | [View Project](Projects/Project-20-drum-kits/) |
-| 21 | Clock | [View Project](Projects/Project-21-clock/) |
-| 22 | Temperature Converter | [View Project](Projects/Project-22-temperature-converter/) |
-| 23 | BMI Calculator | [View Project](Projects/Project-23-BMI-calculator/) |
-| 24 | Sticky Navbar | [View Project](Projects/Project-24-sticky-navbar/) |
-| 25 | Random Emoji | [View Project](Projects/Project-25-random-emoji/) |
-| 26 | Tip Calculator | [View Project](Projects/Project-26-tip-calculator/) |
-| 27 | Loading Bar | [View Project](Projects/Project-27-loading-bar/) |
-| 28 | Background Image Scroll Effect | [View Project](Projects/Project-28-background-image-scroll-effect/) |
-| 29 | Mouse Event | [View Project](Projects/Project-29-mouse-event/) |
-| 30 | Dice Roll Simulator | [View Project](Projects/Project-30-dice-roll-simulator/) |
+| #  | Project Name | Description | Link |
+|----|-------------|-------------|------|
+| 1  | Heart Animation | A beautiful heart trail animation when we mouse moves  | [View Project](Projects/Project-1-heart-animation/) |
+| 2  | Auto Text | Displays text letter by letter like a typing effect. | [View Project](Projects/Project-2-auto-text/) |
+| 3  | Mini Calendar | A simple and attractive mini calendar widget. | [View Project](Projects/Project-3-mini-calender/) |
+| 4  | Button Ripple | Creates a ripple effect when a button is hovered. | [View Project](Projects/Project-4-button-ripple/) |
+| 5  | Random Image | Displays a random image from a set of images. | [View Project](Projects/Project-5-random-image/) |
+| 6  | Dark Mode | a button Toggles dark mode for better user experience. | [View Project](Projects/Project-6-dark-mode/) |
+| 7  | Testimonial Slider | A slider displaying user testimonials dynamically. | [View Project](Projects/Project-7-Testimonial-slider/) |
+| 8  | Real-time Character Counter | Counts and displays characters in real time as you type. | [View Project](Projects/Project-8-Real-time-character-counter/) |
+| 9  | Digital Clock | A real-time digital clock displaying hours, minutes, and seconds. | [View Project](Projects/Project-9-digital-clock/) |
+| 10 | Double Landing Page | A creative landing page split into two different sections. | [View Project](Projects/Project-10-double-landing-page/) |
+| 11 | Random Color Generator | Generates and displays random colors with hex codes. | [View Project](Projects/Project-11-random-color-generator/) |
+| 12 | Rotating Image Gallery | A rotating image gallery with smooth transitions. | [View Project](Projects/Project-12-Rotating-Image-Gallery/) |
+| 13 | Animated Search Bar | A stylish search bar with animation effects. | [View Project](Projects/Project-13-animated-search-bar/) |
+| 14 | Loan Calculator | Calculates loan payments based on amount, interest, and time. | [View Project](Projects/Project-14-loan-calculator/) |
+| 15 | New Year Countdown | A countdown timer for the upcoming New Year. | [View Project](Projects/Project-15-new-year-countdown/) |
+| 16 | Pomodoro Timer | A timer to enhance productivity using the Pomodoro technique. | [View Project](Projects/Project-16-pomodoro-timer/) |
+| 17 | Age Calculator | Calculates age based on the provided birth date. | [View Project](Projects/Project-17-age-calculator/) |
+| 18 | Project Statistics | A profile statistics counter with animated number increments. | [View Project](Projects/Project-18-project-statistics/) |
+| 19 | Video Trailer Popup | Opens a video trailer in a popup modal. | [View Project](Projects/Project-19-video-trailer-popup/) |
+| 20 | Drum Kits | A fun virtual drum kit that plays sounds on keypress. | [View Project](Projects/Project-20-drum-kits/) |
+| 21 | Clock | A simple analog clock with moving hands. | [View Project](Projects/Project-21-clock/) |
+| 22 | Temperature Converter | Converts temperatures between Celsius, Fahrenheit, and Kelvin. | [View Project](Projects/Project-22-temperature-converter/) |
+| 23 | BMI Calculator | Calculates Body Mass Index based on height and weight. | [View Project](Projects/Project-23-BMI-calculator/) |
+| 24 | Sticky Navbar | A navbar that remains fixed at the top when scrolling. | [View Project](Projects/Project-24-sticky-navbar/) |
+| 25 | Random Emoji | Generates and displays a random emoji each time. | [View Project](Projects/Project-25-random-emoji/) |
+| 26 | Tip Calculator | Calculates the tip amount based on bill and percentage. | [View Project](Projects/Project-26-tip-calculator/) |
+| 27 | Loading Bar | A smooth animated loading bar for websites. | [View Project](Projects/Project-27-loading-bar/) |
+| 28 | Background Image Scroll Effect | Adds a smooth parallax effect to background images. | [View Project](Projects/Project-28-background-image-scroll-effect/) |
+| 29 | Mouse Event | Displays real-time mouse event data like position and clicks. | [View Project](Projects/Project-29-mouse-event/) |
+| 30 | Dice Roll Simulator | Simulates rolling a dice and displays the result. | [View Project](Projects/Project-30-dice-roll-simulator/) |
 
 ## 📜 How to Use
 
-### Clone this repository:
+#### Clone this repository:
 ```sh
 git clone https://github.com/AjayPeter582/Mini-Javascript-Projects.git
 ```
 
-### Open docs folder and click `index.html` in your browser.
+#### Open docs folder and click `index.html` in your browser.
 
-### Click on a project to view its live-demo and source code.
+#### Click on a project to view its live-demo and source code.
 
 ## 🔗 Live Demo
 
