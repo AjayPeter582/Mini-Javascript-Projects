@@ -120,7 +120,7 @@ git clone https://github.com/AjayPeter582/Mini-Javascript-Projects.git
 
 ## 🔗 Live Demo
 
-👉 **[Explore the Projects](https://your-live-demo-link.com/)**
+👉 **[Explore the Projects](https://ajaypeter582.github.io/Mini-Javascript-Projects/)**
 
 ## 📌 Contribution
 
