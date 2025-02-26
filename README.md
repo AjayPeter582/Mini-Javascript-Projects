@@ -20,7 +20,6 @@ Welcome to the **30 Mini JavaScript Projects** repository! This collection showc
 
 ```
 MINI JAVASCRIPT PROJECTS/
-│── .dist/
 │── docs/
 │   │── Images/
 │   │   ├── codeView.html
