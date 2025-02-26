@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", () => {
             ? `https://AjayPeter582.github.io/Mini-Javascript-Projects/Projects`
             : `../Projects`;
 
-        const imageUrl = `../Projects/${project.folder}/output.png`;
+        const imageUrl = `./Projects/${project.folder}/output.png`;
         console.log(imageUrl);
         // Set background dynamically
         card.style.backgroundImage = `url('${imageUrl}')`;
