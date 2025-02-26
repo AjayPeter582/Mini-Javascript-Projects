@@ -118,8 +118,6 @@ git clone https://github.com/AjayPeter582/Mini-Javascript-Projects.git
 
 #### Click on a project to view its code, live-demo and source code.
 
-###👉 **[Explore the Projects](https://ajaypeter582.github.io/Mini-Javascript-Projects/)**
-
 ## 📌 Contribution
 
 Feel free to:
