@@ -116,7 +116,7 @@ git clone https://github.com/AjayPeter582/Mini-Javascript-Projects.git
 
 #### Open docs folder and click `index.html` in your browser.
 
-#### Click on a project to view its live-demo and source code.
+#### Click on a project to view its code, live-demo and source code.
 
 ## 🔗 Live Demo
 
