@@ -69,6 +69,92 @@ Each project folder contains:
 - `style.css` – Styling file
 - `output.png` – output image used for card thumbmail
 
+# Mini JavaScript Projects
+
+This repository contains 30 mini JavaScript projects to enhance your skills. Each project is designed to be simple yet effective in learning key JavaScript concepts.
+
+## 📂 Project Structure
+```
+MINI JAVASCRIPT PROJECTS/
+│── .dist/
+│── docs/
+│   │── Images/
+│   │   ├── codeView.html
+│   │   ├── codeView.js
+│   │   ├── index.html
+│   │   ├── index.js
+│   │   ├── projects.js
+│   │   ├── readme.md
+│   │   ├── style.css
+│── Projects/
+│   │── Project-1-heart-animation/
+│   │── Project-2-auto-text/
+│   │── Project-3-mini-calender/
+│   │── Project-4-button-ripple/
+│   │── Project-5-random-image/
+│   │── Project-6-dark-mode/
+│   │── Project-7-Testimonial-slider/
+│   │── Project-8-Real-time-character-counter/
+│   │── Project-9-digital-clock/
+│   │── Project-10-double-landing-page/
+│   │── Project-11-random-color-generator/
+│   │── Project-12-Rotating-Image-Gallery/
+│   │── Project-13-animated-search-bar/
+│   │── Project-14-loan-calculator/
+│   │── Project-15-new-year-countdown/
+│   │── Project-16-pomodoro-timer/
+│   │── Project-17-age-calculator/
+│   │── Project-18-project-statistics/
+│   │── Project-19-video-trailer-popup/
+│   │── Project-20-drum-kits/
+│   │── Project-21-clock/
+│   │── Project-22-temperature-converter/
+│   │── Project-23-BMI-calculator/
+│   │── Project-24-sticky-navbar/
+│   │── Project-25-random-emoji/
+│   │── Project-26-tip-calculator/
+│   │── Project-27-loading-bar/
+│   │── Project-28-background-image-scroll-effect/
+│   │── Project-29-mouse-event/
+│   │── Project-30-dice-roll-simulator/
+```
+
+## 📌 Projects List
+Each project name below links to its respective folder in the GitHub repository.
+
+| #  | Project Name | Link |
+|----|-------------|------|
+| 1  | Heart Animation | [View Project](Projects/Project-1-heart-animation/) |
+| 2  | Auto Text | [View Project](Projects/Project-2-auto-text/) |
+| 3  | Mini Calendar | [View Project](Projects/Project-3-mini-calender/) |
+| 4  | Button Ripple | [View Project](Projects/Project-4-button-ripple/) |
+| 5  | Random Image | [View Project](Projects/Project-5-random-image/) |
+| 6  | Dark Mode | [View Project](Projects/Project-6-dark-mode/) |
+| 7  | Testimonial Slider | [View Project](Projects/Project-7-Testimonial-slider/) |
+| 8  | Real-time Character Counter | [View Project](Projects/Project-8-Real-time-character-counter/) |
+| 9  | Digital Clock | [View Project](Projects/Project-9-digital-clock/) |
+| 10 | Double Landing Page | [View Project](Projects/Project-10-double-landing-page/) |
+| 11 | Random Color Generator | [View Project](Projects/Project-11-random-color-generator/) |
+| 12 | Rotating Image Gallery | [View Project](Projects/Project-12-Rotating-Image-Gallery/) |
+| 13 | Animated Search Bar | [View Project](Projects/Project-13-animated-search-bar/) |
+| 14 | Loan Calculator | [View Project](Projects/Project-14-loan-calculator/) |
+| 15 | New Year Countdown | [View Project](Projects/Project-15-new-year-countdown/) |
+| 16 | Pomodoro Timer | [View Project](Projects/Project-16-pomodoro-timer/) |
+| 17 | Age Calculator | [View Project](Projects/Project-17-age-calculator/) |
+| 18 | Project Statistics | [View Project](Projects/Project-18-project-statistics/) |
+| 19 | Video Trailer Popup | [View Project](Projects/Project-19-video-trailer-popup/) |
+| 20 | Drum Kits | [View Project](Projects/Project-20-drum-kits/) |
+| 21 | Clock | [View Project](Projects/Project-21-clock/) |
+| 22 | Temperature Converter | [View Project](Projects/Project-22-temperature-converter/) |
+| 23 | BMI Calculator | [View Project](Projects/Project-23-BMI-calculator/) |
+| 24 | Sticky Navbar | [View Project](Projects/Project-24-sticky-navbar/) |
+| 25 | Random Emoji | [View Project](Projects/Project-25-random-emoji/) |
+| 26 | Tip Calculator | [View Project](Projects/Project-26-tip-calculator/) |
+| 27 | Loading Bar | [View Project](Projects/Project-27-loading-bar/) |
+| 28 | Background Image Scroll Effect | [View Project](Projects/Project-28-background-image-scroll-effect/) |
+| 29 | Mouse Event | [View Project](Projects/Project-29-mouse-event/) |
+| 30 | Dice Roll Simulator | [View Project](Projects/Project-30-dice-roll-simulator/) |
+
 ## 📜 How to Use
 
 ### Clone this repository:
