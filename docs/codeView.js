@@ -11,17 +11,18 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // Set up Live Demo Button
     const btnEl = document.getElementById("live-demo");
-    if (btnEl) {
-        btnEl.onclick = () => {
-            window.location.href = `../Projects/${folder}/index.html`;
-        };
-    }
+if (btnEl) {
+    btnEl.onclick = () => {
+        window.open(`https://rawcdn.githack.com/AjayPeter582/Mini-Javascript-Projects/main/Projects/${folder}/index.html`, "_blank");
+    };
+}
+
+
 
     const sourceBtnEl = document.getElementById("source-code");
     if (sourceBtnEl) {
         sourceBtnEl.onclick = () => {
-            window.location.href = `https://github.com/AjayPeter582/Mini-Javascript-Projects/tree/main/Projects/${folder}
-`;
+            window.location.href = `https://github.com/AjayPeter582/Mini-Javascript-Projects/tree/main/Projects/${folder}`;
         };
     }
 
