@@ -13,9 +13,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const card = document.createElement("div");
         card.classList.add("card");
 
-
-        const imageUrl = `../Projects/${project.folder}/output.png`;
-        console.log(imageUrl);
+        const imageUrl = `https://raw.githubusercontent.com/AjayPeter582/Mini-Javascript-Projects/main/Projects/${project.folder}/output.png`;
 
         card.style.backgroundImage = `url('${imageUrl}')`;
         card.style.backgroundSize = "cover";
