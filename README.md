@@ -2,6 +2,8 @@
 
 Welcome to the **30 Mini JavaScript Projects** repository! This collection showcases 30 small yet powerful JavaScript projects that enhance interactivity and creativity. Each project is designed to be beginner-friendly while demonstrating core JavaScript concepts.
 
+#### Live demo: https://ajaypeter582.github.io/Mini-Javascript-Projects/
+
 ## 🎯 Features
 
 - **Modern UI**: Dark theme, smooth hover effects, and responsive design.
