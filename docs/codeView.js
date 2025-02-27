@@ -17,8 +17,6 @@ if (btnEl) {
     };
 }
 
-
-
     const sourceBtnEl = document.getElementById("source-code");
     if (sourceBtnEl) {
         sourceBtnEl.onclick = () => {
